@@ -1,0 +1,17 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Respository;
+
+import java.io.Serializable;
+import orm.JpaRepository;
+import pojo.TestDetail;
+
+/**
+ *
+ * @author PC
+ */
+public interface TestDetailRepository extends JpaRepository<TestDetail, Integer>{
+    
+}
